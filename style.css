@@ -1,8 +1,11 @@
-/* HEADER */
+/*******************************************
+* 					HEADER
+********************************************/
 .clear{
 	clear: both;
 }
 
+/* MENU NAVBAR */
 .header .navbar-custom{
 	background: #fff;
 	border: none;
@@ -17,6 +20,7 @@
 	color: #353535;
 }
 
+/* CARROUSEL */ 
 .carousel-indicators .active{
 	background: #00e0d0;
 }
@@ -42,7 +46,9 @@
 }
 
 
-/* SERVIÇOS */
+/*******************************************
+* 					SERVIÇOS
+********************************************/
 .servicos {
 	margin-top: 60px;
 }
@@ -62,6 +68,10 @@
 	text-align: justify;
 }
 
+
+/*******************************************
+* 					SOBRE
+********************************************/
 .sobre {
 	background: url(assets/images/slider-01.jpg) fixed;
 	padding: 30px 0;
@@ -79,6 +89,12 @@
 	text-align: center;
 	margin-bottom: 40px;
 }
+
+
+
+/*******************************************
+* 				PORTFÓLIO / BLOG
+********************************************/
 
 .blog{
 	padding: 30px 0;
@@ -133,10 +149,19 @@
 
 }
 
+
+/*******************************************
+* 	  HEADER DA PÁGINAS INTERNAS DO SITE
+********************************************/
+
 .header_internas #crumbs a{
 	color: #00e0d0;
 }
 
+
+/*******************************************
+* 	  			   RODAPÉ
+********************************************/
 .footer{
 	background: url(assets/images/bg-footer.jpg) center top;
 	padding: 30px 0;
@@ -147,7 +172,8 @@
 	color: #fff;
 	text-align: justify;
 }
-
+ 
+/* FORMULÁRIO FOOTER */
 .footer .frm_form_fields label{
 	display: none !important;
 }
@@ -185,6 +211,7 @@
 	color: #fff;
 }
 
+/* INFORMAÇÕES E LISTAS DO FOOTER */
 .footer ul.networks{
 	padding: 0;
 	margin-bottom: 0;
